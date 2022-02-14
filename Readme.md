@@ -2,6 +2,9 @@ This readMe file has Two parts.
 - [About](#about) - A little about the project
 - [Running the projects](#running-the-project) - Instructions of how to run the project
 # About
+
+**I am the sole Contributor of all the code written in this repo**
+
 I worked with Sarvh for a duration of 6 months. I implemented and reviewed a lot of features essential for an ecommerce website that gives a social media platform experience to the user. All the code I wrote for sarvh is private and I signed an NDA specifying I can mention my work as a theory but cannot share any part of code without proper permission. I could have shown any of my personal projects but I feel that the work I did for Sarvh can truely illustrate the kind of coder I am. I cannot share all the features I implemented but I took permission for showing you two features that I Implemented which potentally saved money for that start up.
 
 Sarvh had an initial plan of using elasticsearch for searchig products with full text search on Product Names. It does sound reasonable to use elasticsearch but Sarvh being a startup running on personal funds does need ways of reducing the costs. After Finishing my internship and joining as a web lead I proposed not to use ElasticSearch rather improve on the composite key and the concept complex string in DynamoDB along with string search on server which reduces the costs on AWS drastically.
