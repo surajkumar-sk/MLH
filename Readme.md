@@ -22,7 +22,7 @@ For the sake of Running a Demo of this Project i'll be making few edits in the c
 
 There are three parts of this project-
 - FrontEnd React Server 
-  - navigate to `/client` in a terminal ad run `npm run start`
+  - navigate to `/Client` in a terminal ad run `npm run start`
   - This will run a React server on port `3000`
 - BackEnd Nodejs Server 
   - navigate to `/server` in a terminal ad run `npm run start`
