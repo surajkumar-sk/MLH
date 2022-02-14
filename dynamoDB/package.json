@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "A simple dynamodb mimic server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Surajkumar-sk",
+  "license": "ISC"
+}
