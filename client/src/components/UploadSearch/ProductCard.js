@@ -1,6 +1,4 @@
-export function ProductCard(props) {
-  return <p>{props.data.pk}</p>
-}
+
 
 import React, { useRef, useState, useLayoutEffect, useEffect } from "react";
 import { makeStyles } from "@material-ui/core";
@@ -479,17 +477,6 @@ export function Card(props) {
   var match = useMediaQuery("(max-width : 769px");
   const classes = useStyles({ match: match });
 
-  const handleSizeChange = (e) => {
-    setfocus(false);
-
-    e.target.offsetParent.childNodes.forEach((ele) => {
-      ele.style.backgroundColor = "#f7f6f6";
-      ele.style.color = "#393939";
-    });
-    e.target.style.backgroundColor = "#192a56";
-    e.target.style.color = "#ffffff";
-    setSize(e.target.childNodes[0].textContent);
-  };
 
   return (
     <div ref={rootReference} className={classes.root}>
